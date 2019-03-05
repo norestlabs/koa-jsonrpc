@@ -4,9 +4,9 @@
  * See https://github.com/steemit/json-rpc
  */
 
-import {SignedJsonRpcRequest, validate as validateSignature, VerifyMessage} from '@steemit/rpc-auth'
+import {SignedJsonRpcRequest, validate as validateSignature, VerifyMessage} from '@nrl-demo/rpc-auth'
 import * as assert from 'assert'
-import {Client, ClientOptions, PublicKey, Signature} from 'dsteem'
+import {Client, ClientOptions, PublicKey, Signature} from 'dknowledgr'
 import {RequestOptions} from 'https'
 import {parse as parseUrl} from 'url'
 

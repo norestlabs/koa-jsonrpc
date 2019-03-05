@@ -2,8 +2,8 @@ import 'mocha'
 import * as assert from 'assert'
 import * as Koa from 'koa'
 import * as http from 'http'
-import {sign} from '@steemit/rpc-auth'
-import {PrivateKey} from 'dsteem'
+import {sign} from '@nrl-demo/rpc-auth'
+import {PrivateKey} from 'dknowledgr'
 
 import {JsonRpcAuth, utils} from './../src/'
 const {jsonRequest} = utils
