@@ -1,6 +1,6 @@
 {
   "name": "@nrl-demo/koa-jsonrpc",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Spec compliant JSON-RPC 2.0 server middleware for Koa",
   "license": "MIT",
   "main": "./lib/index",
@@ -16,7 +16,7 @@
     "node": ">=8"
   },
   "dependencies": {
-    "@nrl-demo/rpc-auth": "^1.1.3",
+    "@nrl-demo/rpc-auth": "^1.1.5",
     "dknowledgr": "^0.11.4",
     "uuid": "^3.2.1",
     "verror": "^1.10.0"

@@ -2,16 +2,17 @@
 # yarn lockfile v1
 
 
-"@nrl-demo/rpc-auth@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@nrl-demo/rpc-auth/-/rpc-auth-1.1.3.tgz#aadb3c7cce2d0217522635c16f0d0db4de3dc836"
-  integrity sha512-EKxkklUyOqT8/T2vygP+5zskvpZujyXur0iilLFwh7lVcZQR0k1uAHYFGYWH4ShKtpah+TXUxfO+LyLQ+r/Osg==
-  dependencies:
-    "@steemit/libcrypto" "^1.0.1"
+"@nrl-demo/libcrypto@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@nrl-demo/libcrypto/-/libcrypto-1.0.3.tgz#e9201f5bd0c2af79e53797a394ad84c5980eca17"
+  integrity sha512-3FJn9nQ2C3qD2OPwEXszO8VWQ9f20eCeTFvs/cJcbQ+cRgtbl9umgxJA+iXtpw6u6ZMJFCnnlzvIaoW/ZXZ1tg==
 
-"@steemit/libcrypto@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@steemit/libcrypto/-/libcrypto-1.0.1.tgz#c31ab3e5deb667628169b3d54d746b015de31a79"
+"@nrl-demo/rpc-auth@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@nrl-demo/rpc-auth/-/rpc-auth-1.1.5.tgz#a73cf72a98e408d3d2271c5a7692c3d182d42cd5"
+  integrity sha512-EhqCW2Bs1xxPzKEe2D8QPBO0i3Q2xPUfHlA6mcv5Cmu5cd9z2KzOUOcWRaLspimCGEUYyNRli/4fleNEq3iC3Q==
+  dependencies:
+    "@nrl-demo/libcrypto" "^1.0.3"
 
 "@types/accepts@*":
   version "1.3.3"
