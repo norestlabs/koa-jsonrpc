@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@nrl-demo/libcrypto/-/libcrypto-1.0.3.tgz#e9201f5bd0c2af79e53797a394ad84c5980eca17"
   integrity sha512-3FJn9nQ2C3qD2OPwEXszO8VWQ9f20eCeTFvs/cJcbQ+cRgtbl9umgxJA+iXtpw6u6ZMJFCnnlzvIaoW/ZXZ1tg==
 
-"@nrl-demo/rpc-auth@^1.1.5":
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/@nrl-demo/rpc-auth/-/rpc-auth-1.1.5.tgz#a73cf72a98e408d3d2271c5a7692c3d182d42cd5"
-  integrity sha512-EhqCW2Bs1xxPzKEe2D8QPBO0i3Q2xPUfHlA6mcv5Cmu5cd9z2KzOUOcWRaLspimCGEUYyNRli/4fleNEq3iC3Q==
+"@nrl-demo/rpc-auth@^1.1.7":
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/@nrl-demo/rpc-auth/-/rpc-auth-1.1.7.tgz#9e4a36cc62276a426aead24f3c920091b2cba08b"
+  integrity sha512-FkUozczYko8RIpCvZQbSFu8pj2733C7C6UyQa51qK/Pbrr9hi3bwqTlJwnEqjOJJ74r+lFs4yie9748RDZ3Y0A==
   dependencies:
     "@nrl-demo/libcrypto" "^1.0.3"
 
@@ -646,10 +646,10 @@ diff@^3.1.0, diff@^3.2.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/diff/-/diff-3.4.0.tgz#b1d85507daf3964828de54b37d0d73ba67dda56c"
 
-dknowledgr@^0.11.4:
-  version "0.11.4"
-  resolved "https://registry.yarnpkg.com/dknowledgr/-/dknowledgr-0.11.4.tgz#f591779beffc7084f7a1e0ad79689a3bd274a815"
-  integrity sha512-WD14O8B9sevolY6qpi0lx8Yt8L84Sej+eCeBJpFknHF2GXnpEKWGFAuGkGMiHV3wAJ329hOCYrXagqpZ2OVnRg==
+dknowledgr@^0.11.7:
+  version "0.11.7"
+  resolved "https://registry.yarnpkg.com/dknowledgr/-/dknowledgr-0.11.7.tgz#f1cae7f63437a3ec6c002d0035cdc3b83f2090b4"
+  integrity sha512-mi7koZcBrlShD74CNvx8cySCW5oblbabxsDQLGZLTMIQvW9NmOReNuMOaek6VEBBk22nu6yGjtSVISVeUTawtA==
   dependencies:
     bs58 "^4.0.1"
     bytebuffer "^5.0.1"
