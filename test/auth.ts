@@ -2,7 +2,7 @@ import 'mocha'
 import * as assert from 'assert'
 import * as Koa from 'koa'
 import * as http from 'http'
-import {sign} from '@nrl-demo/rpc-auth'
+import {sign} from '@knowledgr/rpc-auth'
 import {PrivateKey} from 'dknowledgr'
 
 import {JsonRpcAuth, utils} from './../src/'
