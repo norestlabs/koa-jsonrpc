@@ -1,5 +1,5 @@
 
-@nrl-demo/koa-jsonrpc
+@knowledgr/koa-jsonrpc
 ====================
 
 *Build status: [![CircleCI](https://circleci.com/gh/steemit/koa-jsonrpc.svg?style=svg)](https://circleci.com/gh/steemit/koa-jsonrpc)*
@@ -9,7 +9,7 @@ Spec compliant JSON RPC Server middleware for Koa
 
 ```javascript
 const Koa = require('koa')
-const {JsonRpc} = require('@nrl-demo/koa-jsonrpc')
+const {JsonRpc} = require('@knowledgr/koa-jsonrpc')
 
 const rpc = new JsonRpc()
 rpc.register('my_method', async (foo, bar) => {
